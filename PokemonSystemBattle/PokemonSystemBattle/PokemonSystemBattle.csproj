@@ -116,5 +116,8 @@
   <ItemGroup>
     <None Include="Resources\Pokemon-Sword-_-Shield-Gym-Leader-Battle-Music-_Full_-_1_.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ost %28mp3cut.net%29 %282%29.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

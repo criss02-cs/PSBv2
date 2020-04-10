@@ -121,4 +121,7 @@
   <data name="battleOst" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pokemon-Sword-_-Shield-Gym-Leader-Battle-Music-_Full_-_1_.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="ost__mp3cut_net___2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ost (mp3cut.net) (2).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

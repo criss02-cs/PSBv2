@@ -68,5 +68,14 @@ namespace PokemonSystemBattle.Properties {
                 return ResourceManager.GetStream("battleOst", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream ost {
+            get {
+                return ResourceManager.GetStream("ost__mp3cut_net___2_", resourceCulture);
+            }
+        }
     }
 }
