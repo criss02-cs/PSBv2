@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PokemonSystemBattle
+namespace PokemonSystemBattle.Classes
 {
     public class Mossa
     {
