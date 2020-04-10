@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PokemonSystemBattle.Properties {
+namespace PokemonSystemBattle.Resources {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace PokemonSystemBattle.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    internal class PkmnImgs {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal PkmnImgs() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace PokemonSystemBattle.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PokemonSystemBattle.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PokemonSystemBattle.Resources.PkmnImgs", typeof(PkmnImgs).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,9 +63,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _001 {
+        internal static System.Drawing.Bitmap _0011 {
             get {
-                object obj = ResourceManager.GetObject("001", resourceCulture);
+                object obj = ResourceManager.GetObject("0011", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _001b {
+        internal static System.Drawing.Bitmap _001b1 {
             get {
-                object obj = ResourceManager.GetObject("001b", resourceCulture);
+                object obj = ResourceManager.GetObject("001b1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _002 {
+        internal static System.Drawing.Bitmap _0021 {
             get {
-                object obj = ResourceManager.GetObject("002", resourceCulture);
+                object obj = ResourceManager.GetObject("0021", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _002b {
+        internal static System.Drawing.Bitmap _002b1 {
             get {
-                object obj = ResourceManager.GetObject("002b", resourceCulture);
+                object obj = ResourceManager.GetObject("002b1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _003 {
+        internal static System.Drawing.Bitmap _0031 {
             get {
-                object obj = ResourceManager.GetObject("003", resourceCulture);
+                object obj = ResourceManager.GetObject("0031", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _003b {
+        internal static System.Drawing.Bitmap _003b1 {
             get {
-                object obj = ResourceManager.GetObject("003b", resourceCulture);
+                object obj = ResourceManager.GetObject("003b1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _004 {
+        internal static System.Drawing.Bitmap _0041 {
             get {
-                object obj = ResourceManager.GetObject("004", resourceCulture);
+                object obj = ResourceManager.GetObject("0041", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _004b {
+        internal static System.Drawing.Bitmap _004b1 {
             get {
-                object obj = ResourceManager.GetObject("004b", resourceCulture);
+                object obj = ResourceManager.GetObject("004b1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _005 {
+        internal static System.Drawing.Bitmap _0051 {
             get {
-                object obj = ResourceManager.GetObject("005", resourceCulture);
+                object obj = ResourceManager.GetObject("0051", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _005b {
+        internal static System.Drawing.Bitmap _005b1 {
             get {
-                object obj = ResourceManager.GetObject("005b", resourceCulture);
+                object obj = ResourceManager.GetObject("005b1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _006 {
+        internal static System.Drawing.Bitmap _0061 {
             get {
-                object obj = ResourceManager.GetObject("006", resourceCulture);
+                object obj = ResourceManager.GetObject("0061", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,28 +173,10 @@ namespace PokemonSystemBattle.Properties {
         /// <summary>
         ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _006b {
+        internal static System.Drawing.Bitmap _006b1 {
             get {
-                object obj = ResourceManager.GetObject("006b", resourceCulture);
+                object obj = ResourceManager.GetObject("006b1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream battleOst {
-            get {
-                return ResourceManager.GetStream("battleOst", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Cerca una risorsa localizzata di tipo System.IO.UnmanagedMemoryStream simile a System.IO.MemoryStream.
-        /// </summary>
-        internal static System.IO.UnmanagedMemoryStream ost {
-            get {
-                return ResourceManager.GetStream("ost", resourceCulture);
             }
         }
     }

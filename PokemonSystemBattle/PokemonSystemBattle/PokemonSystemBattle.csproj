@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SplashScreen, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SplashScreen.Winforms.1.0.0\lib\SplashScreen.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -78,6 +81,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\PkmnImgs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PkmnImgs.resx</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +108,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resources\PkmnImgs.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PkmnImgs.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -118,6 +131,78 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ost %28mp3cut.net%29 %282%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\006b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\006.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0011.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001b1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0021.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002b1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0031.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003b1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0041.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\004b1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0051.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005b1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0061.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\006b1.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
