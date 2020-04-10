@@ -38,7 +38,7 @@ namespace PokemonSystemBattle
         {
             SplashForm frm = new SplashForm();
             frm.AppName = Application.ProductName;
-            frm.Icon = PokemonSystemBattle.Properties.Resources.Poke_Ball;
+            frm.Icon = PokemonSystemBattle.Properties.Resources.Poke_Ball1;
             frm.ShowInTaskbar = true;
             frm.ShowIcon = true;
             Application.Run(frm);

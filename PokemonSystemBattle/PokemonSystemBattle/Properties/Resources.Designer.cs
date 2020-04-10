@@ -197,5 +197,25 @@ namespace PokemonSystemBattle.Properties {
                 return ResourceManager.GetStream("ost", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Icon simile a (Icona).
+        /// </summary>
+        internal static System.Drawing.Icon Poke_Ball {
+            get {
+                object obj = ResourceManager.GetObject("Poke_Ball", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Cerca una risorsa localizzata di tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Poke_Ball1 {
+            get {
+                object obj = ResourceManager.GetObject("Poke_Ball1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

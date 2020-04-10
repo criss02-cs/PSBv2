@@ -204,5 +204,11 @@
   <ItemGroup>
     <None Include="Resources\006b1.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poke_Ball.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Poke_Ball.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
