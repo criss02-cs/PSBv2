@@ -51,19 +51,28 @@
     <Compile Include="Classes\Pokemon.cs" />
     <Compile Include="Classes\Statistiche.cs" />
     <Compile Include="Classes\Strumento.cs" />
-    <Compile Include="Forms\Form1.cs" />
+    <Compile Include="Enums\Tipo.cs" />
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form2.cs" />
+    <Compile Include="Forms\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Form2.designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form3.cs" />
+    <Compile Include="Forms\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Form3.designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form4.cs" />
+    <Compile Include="Forms\Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Form4.designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
