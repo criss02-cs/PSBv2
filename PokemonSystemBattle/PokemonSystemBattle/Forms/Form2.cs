@@ -10,9 +10,11 @@ using System.Windows.Forms;
 
 namespace PokemonSystemBattle
 {
-    public partial class Form1 : Form
+    public partial class Form2 : Form
     {
-        public Form1()
+        //Attributi
+        private List<Pokemon> pokedex;
+        public Form2()
         {
             InitializeComponent();
         }
