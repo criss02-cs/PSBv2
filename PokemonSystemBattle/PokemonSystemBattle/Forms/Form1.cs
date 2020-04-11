@@ -23,8 +23,6 @@ namespace PokemonSystemBattle
         private SoundPlayer player;
         public Form1()
         {
-            ///HttpWebRequest richiesta = HttpWebRequest.Create("");
-
             Thread t = new Thread(new ThreadStart(Splash));
             t.Start();
             InitializeComponent();
