@@ -57,7 +57,7 @@ namespace PokemonSystemBattle
             /*Form2 frm = new Form2();
             frm.ShowDialog();
             this.Close();*/
-            MessageBox.Show("Questa parte è ancora in sviluppo");
+            MessageBox.Show("Questa parte è ancora in sviluppoPORCO DIO");
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

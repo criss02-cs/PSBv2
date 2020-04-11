@@ -16,13 +16,13 @@
         "Entry"
         {
         "MsmKey" = "8:_183282D36AA451A94D9899096022A992"
-        "OwnerKey" = "8:_E107AB2A3DAE4AF8B65579C80903FC94"
+        "OwnerKey" = "8:_C1101BFF262347CE8E06A23522873DC0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_319DD1BCD25986B275E49F97DCD2F3B7"
-        "OwnerKey" = "8:_E107AB2A3DAE4AF8B65579C80903FC94"
+        "OwnerKey" = "8:_C1101BFF262347CE8E06A23522873DC0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -33,7 +33,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E107AB2A3DAE4AF8B65579C80903FC94"
+        "MsmKey" = "8:_C1101BFF262347CE8E06A23522873DC0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -46,7 +46,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E107AB2A3DAE4AF8B65579C80903FC94"
+        "OwnerKey" = "8:_C1101BFF262347CE8E06A23522873DC0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -268,7 +268,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:PokemonSystemBattle"
         "ProductCode" = "8:{21FBFCBF-3596-437A-99B5-5E6E16B97651}"
-        "PackageCode" = "8:{15A9FA65-30C0-4D4B-B7BD-55BBD78AFFB7}"
+        "PackageCode" = "8:{FE0D9ECC-A791-42F8-9A8B-DAFA5F70D2EB}"
         "UpgradeCode" = "8:{74AD4021-2CB7-450F-AFF5-9F9ED902F7B8}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -388,7 +388,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F2715BAD0D7A416F8BF4948642D99BEC"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_98140453D67E44A8876A284A33314B2E"
             {
             "Name" = "8:PokemonSystemBattle"
             "Arguments" = "8:"
@@ -396,13 +396,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_E107AB2A3DAE4AF8B65579C80903FC94"
+            "Target" = "8:_C1101BFF262347CE8E06A23522873DC0"
             "Folder" = "8:_08FF4F61CAE3481EAFAAA7397A6879D2"
             "WorkingFolder" = "8:_43E498AC335F4C86BE72768B4DE4DBC2"
             "Icon" = "8:_90565449C2744598B37D7DF447EF3C5F"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FC321DF479454F4C92FDDB3BD01D8929"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CABD1B5B3A994419B6B783049B0C74E9"
             {
             "Name" = "8:PokemonSystemBattle"
             "Arguments" = "8:"
@@ -410,7 +410,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_E107AB2A3DAE4AF8B65579C80903FC94"
+            "Target" = "8:_C1101BFF262347CE8E06A23522873DC0"
             "Folder" = "8:_E6BFE205F7FA4962873F76B3E3183E76"
             "WorkingFolder" = "8:_43E498AC335F4C86BE72768B4DE4DBC2"
             "Icon" = "8:_90565449C2744598B37D7DF447EF3C5F"
@@ -815,7 +815,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E107AB2A3DAE4AF8B65579C80903FC94"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C1101BFF262347CE8E06A23522873DC0"
             {
             "SourcePath" = "8:..\\PokemonSystemBattle\\obj\\Debug\\PokemonSystemBattle.exe"
             "TargetName" = "8:"
