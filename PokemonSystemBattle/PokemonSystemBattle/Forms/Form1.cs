@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Media;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -22,6 +23,8 @@ namespace PokemonSystemBattle
         private SoundPlayer player;
         public Form1()
         {
+            ///HttpWebRequest richiesta = HttpWebRequest.Create("");
+
             Thread t = new Thread(new ThreadStart(Splash));
             t.Start();
             InitializeComponent();
