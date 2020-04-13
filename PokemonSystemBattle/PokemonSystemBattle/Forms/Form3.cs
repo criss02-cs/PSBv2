@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PokemonSystemBattle.Forms;
 
 namespace PokemonSystemBattle
 {
@@ -172,7 +173,7 @@ namespace PokemonSystemBattle
         private void btn2_Click(object sender, EventArgs e)
         {
             txtLog.Text = "";
-            if (btn4.Text.Equals("Borsa"))
+            if (btn2.Text.Equals("Borsa"))
             {
                 
             }
@@ -230,9 +231,12 @@ namespace PokemonSystemBattle
         private void btn3_Click(object sender, EventArgs e)
         {
             txtLog.Text = "";
-            if (btn4.Text.Equals("Pokemon"))
+            if (btn3.Text.Equals("Pokémon"))
             {
-                
+                using(Form5 frm = new Form5(squadra, myPokemon))
+                {
+                    frm.ShowDialog(this);
+                }
             }
             else
             {

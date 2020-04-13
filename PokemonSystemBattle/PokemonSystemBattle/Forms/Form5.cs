@@ -37,8 +37,16 @@ namespace PokemonSystemBattle.Forms
             for (int i = 0; i < squadra.Count; i++)
             {
                 btn[i].Text = squadra[i].Nome;
-                progress[i].Value = squadra[i].PuntiSalute;
                 progress[i].Maximum = squadra[i].PuntiSalute;
+                progress[i].Value = squadra[i].PuntiSalute;
+                if (squadra[i].PuntiSalute == 0)
+                {
+                    btn[i].BackColor = Color.Red;
+                }
+                else
+                {
+                    btn[i].BackColor = Color.Green;
+                }
             }
             switch (squadra.Count)
             {
