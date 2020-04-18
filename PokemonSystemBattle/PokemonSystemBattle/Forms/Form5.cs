@@ -92,5 +92,10 @@ namespace PokemonSystemBattle.Forms
                     break;
             }
         }
+
+        private void btnPrimo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

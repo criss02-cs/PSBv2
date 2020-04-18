@@ -52,6 +52,7 @@
             this.btnPrimo.TabIndex = 0;
             this.btnPrimo.Text = "button1";
             this.btnPrimo.UseVisualStyleBackColor = true;
+            this.btnPrimo.Click += new System.EventHandler(this.btnPrimo_Click);
             // 
             // btnSecondo
             // 
