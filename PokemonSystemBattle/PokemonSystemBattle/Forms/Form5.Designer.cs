@@ -64,6 +64,7 @@
             this.btnSecondo.TabIndex = 1;
             this.btnSecondo.Text = "button1";
             this.btnSecondo.UseVisualStyleBackColor = true;
+            this.btnSecondo.Click += new System.EventHandler(this.btnSecondo_Click);
             // 
             // btnTerzo
             // 
@@ -75,6 +76,7 @@
             this.btnTerzo.TabIndex = 2;
             this.btnTerzo.Text = "button1";
             this.btnTerzo.UseVisualStyleBackColor = true;
+            this.btnTerzo.Click += new System.EventHandler(this.btnTerzo_Click);
             // 
             // btnQuarto
             // 
@@ -86,6 +88,7 @@
             this.btnQuarto.TabIndex = 3;
             this.btnQuarto.Text = "button1";
             this.btnQuarto.UseVisualStyleBackColor = true;
+            this.btnQuarto.Click += new System.EventHandler(this.btnQuarto_Click);
             // 
             // btnQuinto
             // 
@@ -97,6 +100,7 @@
             this.btnQuinto.TabIndex = 4;
             this.btnQuinto.Text = "button1";
             this.btnQuinto.UseVisualStyleBackColor = true;
+            this.btnQuinto.Click += new System.EventHandler(this.btnQuinto_Click);
             // 
             // btnSesto
             // 
@@ -108,6 +112,7 @@
             this.btnSesto.TabIndex = 5;
             this.btnSesto.Text = "button1";
             this.btnSesto.UseVisualStyleBackColor = true;
+            this.btnSesto.Click += new System.EventHandler(this.btnSesto_Click);
             // 
             // progressBar1
             // 

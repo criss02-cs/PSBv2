@@ -236,6 +236,11 @@ namespace PokemonSystemBattle
                 using(Form5 frm = new Form5(squadra, myPokemon))
                 {
                     frm.ShowDialog(this);
+                    myPokemon = frm.Index;
+                    picPrimo.Image = squadra[myPokemon].Back;
+                    lblNome.Text = squadra[myPokemon].Nome;
+                    progressSquadra.Maximum = squadra[myPokemon].PuntiSalute;
+                    progressSquadra.Value = squadra[myPokemon].PuntiSalute;
                 }
             }
             else
