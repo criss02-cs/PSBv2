@@ -335,5 +335,15 @@ namespace PokemonSystemBattle
                 Application.Exit();
             }
         }
+        private void Form3_KeyDown(object sender, KeyEventArgs e)
+        {
+            if ((e.KeyCode == Keys.B || e.KeyCode == Keys.Escape) && !btn1.Text.Equals("Lotta"))
+            {
+                btn1.Text = "Lotta";
+                btn2.Text = "Borsa";
+                btn3.Text = "Pokémon";
+                btn4.Text = "Esci";
+            }
+        }
     }
 }
