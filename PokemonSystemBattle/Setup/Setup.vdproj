@@ -16,24 +16,24 @@
         "Entry"
         {
         "MsmKey" = "8:_183282D36AA451A94D9899096022A992"
-        "OwnerKey" = "8:_C1101BFF262347CE8E06A23522873DC0"
+        "OwnerKey" = "8:_1C881F55C6024D778050915AE7F500BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_319DD1BCD25986B275E49F97DCD2F3B7"
-        "OwnerKey" = "8:_C1101BFF262347CE8E06A23522873DC0"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_90565449C2744598B37D7DF447EF3C5F"
+        "MsmKey" = "8:_1C881F55C6024D778050915AE7F500BB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_C1101BFF262347CE8E06A23522873DC0"
+        "MsmKey" = "8:_319DD1BCD25986B275E49F97DCD2F3B7"
+        "OwnerKey" = "8:_1C881F55C6024D778050915AE7F500BB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_90565449C2744598B37D7DF447EF3C5F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -46,7 +46,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C1101BFF262347CE8E06A23522873DC0"
+        "OwnerKey" = "8:_1C881F55C6024D778050915AE7F500BB"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -73,6 +73,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -89,6 +97,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -388,7 +404,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_98140453D67E44A8876A284A33314B2E"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_4C280EBA918F47B9A9E7EF2493428B6F"
             {
             "Name" = "8:PokemonSystemBattle"
             "Arguments" = "8:"
@@ -396,13 +412,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C1101BFF262347CE8E06A23522873DC0"
+            "Target" = "8:_1C881F55C6024D778050915AE7F500BB"
             "Folder" = "8:_08FF4F61CAE3481EAFAAA7397A6879D2"
             "WorkingFolder" = "8:_43E498AC335F4C86BE72768B4DE4DBC2"
             "Icon" = "8:_90565449C2744598B37D7DF447EF3C5F"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_CABD1B5B3A994419B6B783049B0C74E9"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A08CA28F76F04F6786FA8EC9F0F024BE"
             {
             "Name" = "8:PokemonSystemBattle"
             "Arguments" = "8:"
@@ -410,7 +426,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C1101BFF262347CE8E06A23522873DC0"
+            "Target" = "8:_1C881F55C6024D778050915AE7F500BB"
             "Folder" = "8:_E6BFE205F7FA4962873F76B3E3183E76"
             "WorkingFolder" = "8:_43E498AC335F4C86BE72768B4DE4DBC2"
             "Icon" = "8:_90565449C2744598B37D7DF447EF3C5F"
@@ -815,7 +831,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C1101BFF262347CE8E06A23522873DC0"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_1C881F55C6024D778050915AE7F500BB"
             {
             "SourcePath" = "8:..\\PokemonSystemBattle\\obj\\Debug\\PokemonSystemBattle.exe"
             "TargetName" = "8:"
