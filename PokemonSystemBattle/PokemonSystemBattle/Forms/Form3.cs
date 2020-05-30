@@ -84,6 +84,7 @@ namespace PokemonSystemBattle
                 {
                     avversario[enemyPokemon].PuntiSalute = 0;
                     progressAvversario.Value = avversario[enemyPokemon].PuntiSalute;
+                    ChangePokemon();
                 }
 
                 if (avversario[enemyPokemon].PuntiSalute == 0)
@@ -142,6 +143,7 @@ namespace PokemonSystemBattle
                 {
                     avversario[enemyPokemon].PuntiSalute = 0;
                     progressAvversario.Value = avversario[enemyPokemon].PuntiSalute;
+                    ChangePokemon();
                 }
 
                 if (avversario[enemyPokemon].PuntiSalute == 0)
@@ -200,6 +202,7 @@ namespace PokemonSystemBattle
                 {
                     avversario[enemyPokemon].PuntiSalute = 0;
                     progressAvversario.Value = avversario[enemyPokemon].PuntiSalute;
+                    ChangePokemon();
                 }
 
                 if (avversario[enemyPokemon].PuntiSalute == 0)
@@ -210,7 +213,7 @@ namespace PokemonSystemBattle
                         if (i.PuntiSalute == 0)
                             rimasti--;
                     }
-
+                    
                     if (rimasti <= 0)
                     {
                         txtLog.Text = "Complimenti hai vinto!";
@@ -222,20 +225,25 @@ namespace PokemonSystemBattle
             }
         }
 
+        public void ChangePokemon()
+        {
+            using (Form5 frm = new Form5(squadra, myPokemon))
+            {
+                frm.ShowDialog(this);
+                myPokemon = frm.Index;
+                picPrimo.Image = squadra[myPokemon].Back;
+                lblNome.Text = squadra[myPokemon].Nome;
+                progressSquadra.Maximum = squadra[myPokemon].PuntiSalute;
+                progressSquadra.Value = squadra[myPokemon].PuntiSalute;
+            }
+        }
+
         private void btn3_Click(object sender, EventArgs e)
         {
             txtLog.Text = "";
             if (btn3.Text.Equals("Pokémon"))
             {
-                using(Form5 frm = new Form5(squadra, myPokemon))
-                {
-                    frm.ShowDialog(this);
-                    myPokemon = frm.Index;
-                    picPrimo.Image = squadra[myPokemon].Back;
-                    lblNome.Text = squadra[myPokemon].Nome;
-                    progressSquadra.Maximum = squadra[myPokemon].PuntiSalute;
-                    progressSquadra.Value = squadra[myPokemon].PuntiSalute;
-                }
+                ChangePokemon();
             }
             else
             {
@@ -266,6 +274,7 @@ namespace PokemonSystemBattle
                 {
                     avversario[enemyPokemon].PuntiSalute = 0;
                     progressAvversario.Value = avversario[enemyPokemon].PuntiSalute;
+                    ChangePokemon();
                 }
 
                 if (avversario[enemyPokemon].PuntiSalute == 0)
@@ -324,6 +333,7 @@ namespace PokemonSystemBattle
             if (squadra[myPokemon].PuntiSalute == 0)
             {
                 txtLog.Text = squadra[myPokemon].Nome + " è esausto!\n";
+                ChangePokemon();
             }
         }
 
@@ -333,16 +343,6 @@ namespace PokemonSystemBattle
             if (secondi == 5)
             {
                 Application.Exit();
-            }
-        }
-        private void Form3_KeyDown(object sender, KeyEventArgs e)
-        {
-            if ((e.KeyCode == Keys.B || e.KeyCode == Keys.Escape) && !btn1.Text.Equals("Lotta"))
-            {
-                btn1.Text = "Lotta";
-                btn2.Text = "Borsa";
-                btn3.Text = "Pokémon";
-                btn4.Text = "Esci";
             }
         }
     }
