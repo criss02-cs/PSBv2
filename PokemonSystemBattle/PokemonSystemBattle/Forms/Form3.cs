@@ -345,5 +345,13 @@ namespace PokemonSystemBattle
                 Application.Exit();
             }
         }
+
+        private void Form3_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(MessageBox.Show("Vuoi salvare la tua squadra?", "Salvataggio della squadra", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                string file = myPokemon.ToString();
+            }
+        }
     }
 }

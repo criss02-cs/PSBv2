@@ -175,6 +175,7 @@
             this.Name = "Form3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lotta Pokémon";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form3_FormClosing);
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picPrimo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picSecondo)).EndInit();
