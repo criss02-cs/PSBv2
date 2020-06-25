@@ -352,7 +352,7 @@ namespace PokemonSystemBattle
         {
             if(MessageBox.Show("Vuoi salvare la tua squadra?", "Salvataggio della squadra", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                string file = JsonConvert.SerializeObject(myPokemon);
+                string file = JsonConvert.SerializeObject(squadra);
                 if (File.Exists("squadra.txt"))
                     File.Create("squadra.txt");
                 File.WriteAllText("squadra.txt", file);

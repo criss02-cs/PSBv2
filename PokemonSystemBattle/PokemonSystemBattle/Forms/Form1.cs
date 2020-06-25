@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Media;
 using System.Threading;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 using PokemonSystemBattle.Forms;
 using SplashScreen;
 
@@ -12,6 +15,7 @@ namespace PokemonSystemBattle
         //Attributi
         private Pokemon[] squadra = new Pokemon[6];
         private Pokemon[] avversario = new Pokemon[6];
+        private Pokedex pokedex = new Pokedex();
         private SoundPlayer player;
         public Form1()
         {
@@ -52,11 +56,25 @@ namespace PokemonSystemBattle
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            using (Form4 frm = new Form4())
+            List<Pokemon> s = null;
+            string f = "";
+            if (File.Exists("squadra.txt"))
             {
-                frm.ShowDialog();
-                squadra = frm.Squadra.ToArray();
-                avversario = frm.Avversario.ToArray();
+                f = File.ReadAllText("squadra.txt");
+            }
+            if (f is "")
+            {
+                using (Form4 frm = new Form4())
+                {
+                    frm.ShowDialog();
+                    squadra = frm.Squadra.ToArray();
+                    avversario = frm.Avversario.ToArray();
+                }
+            }
+            else
+            {
+                s = JsonConvert.DeserializeObject<List<Pokemon>>(f);
+                squadra = s.ToArray();
             }
             Form3 frm3 = new Form3(squadra, avversario);
             frm3.ShowDialog();
