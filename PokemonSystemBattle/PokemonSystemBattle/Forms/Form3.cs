@@ -4,6 +4,8 @@ using System.Linq;
 using System.Media;
 using System.Windows.Forms;
 using PokemonSystemBattle.Forms;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace PokemonSystemBattle
 {
@@ -350,7 +352,11 @@ namespace PokemonSystemBattle
         {
             if(MessageBox.Show("Vuoi salvare la tua squadra?", "Salvataggio della squadra", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
-                string file = myPokemon.ToString();
+                string file = JsonConvert.SerializeObject(myPokemon);
+                if (File.Exists("squadra.txt"))
+                    File.Create("squadra.txt");
+                File.WriteAllText("squadra.txt", file);
+                MessageBox.Show("Salvataggio completato!");
             }
         }
     }
